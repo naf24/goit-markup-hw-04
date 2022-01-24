@@ -250,16 +250,16 @@ li {
  
 }
 .icon-satellite::before {
-  background-image: url(../icons.svg/antenna\ 1.svg);
+  background-image: url(../imgs/icons.svg/featantenna.svg);
 }
 .icon-clock::before {
-  background-image: url(../icons.svg/clock\ 1.svg) ;
+  background-image: url(../imgs/icons.svg/featclock.svg) ;
 }
 .icon-note::before {
-  background-image: url(../icons.svg/diagram\ 1.svg);
+  background-image: url(../imgs/icons.svg/featdiagram.svg);
 }
 .icon-spaceman::before {
-  background-image: url(../icons.svg/astronaut\ 1.svg);
+  background-image: url(../imgs/icons.svg/featastronaut.svg);
 }
 .text {
   color: var(--primary-text-color);
@@ -312,7 +312,7 @@ li {
   display: flex;
   margin 0;
   justify-content: space-between;
-  align-items center;
+  align-items: center;
   
 }
 .hero-container:not(:last-child){
@@ -323,10 +323,11 @@ li {
 }
 
 .hero-item {
-  margin-right 30px;
+  background-color: var(--white);
 }
 .hero-text {
   padding: 30px 30px 30px 30px;
+  
 }
 .hero-name {
   color: var(--title-text-color);

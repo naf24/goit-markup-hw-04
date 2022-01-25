@@ -440,13 +440,11 @@ li {
 .footer {
   
   background-color: var(--background-dark);
-  padding-top: 60px;
   padding-bottom: 60px;
   position: absolute;
-width: 1600px;
-height: 252px;
-left: 0px;
-top 2679px;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
 }
 .footer-body {
   display: flex;
@@ -498,12 +496,13 @@ top 2679px;
   margin: 0;
 }
 .join {
+  text-decoration: none;
   color: var(--white);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   margin-bottom: 20px;
-  text-transform: uppercase;
+  text-decoration: none;
 }
 .footer-list {
  
@@ -531,7 +530,7 @@ top 2679px;
 
 .footersoc-icon:focus,
 .footersoc-icon:hover {
-  fill var(--white);
+  
   background-color: var(--accent-color);
 }
 

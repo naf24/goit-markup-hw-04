@@ -383,10 +383,6 @@ li {
   background-color: var(--accent-color);
 }
 
-
-
-
-
 /*Постоянные клиенты*/
 .clients-title {
   color: var(--title-text-color);
@@ -439,10 +435,13 @@ li {
 
 /* Футер */
 
-.footer-body {
+.footer {
   background-color: var(--background-dark);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer-left {
+  margin-right: 70px;
 }
 .logo-footer {
   text-decoration: none;
@@ -482,6 +481,40 @@ li {
 }
 .footer-contact:hover,:focus{
   text-decoration: underline;
+}
+.footer-socialmedia {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.footer-list {
+ 
+}
+.footersoc-item  {
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  
+}
+
+.footersoc-item:focus,
+.footersoc-item:hover {
+  background-color: var(--accent-color);
+}
+.footersoc-icon {
+  width: 20px;
+  height: 20px;
+ fill:var(--white);
+}
+
+.footersoc-icon:focus,
+.footersoc-icon:hover {
+  fill var(--white);
+  background-color: var(--accent-color);
 }
 
 /* Портфолио */

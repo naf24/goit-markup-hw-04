@@ -377,10 +377,9 @@ li {
  fill: var(--primary-text-color);
 }
 
-.socialmedia-icon:focus,
-.socialmedia-icon:hover {
-  fill: var(--white);
-  background-color: var(--accent-color);
+.button-item:hover .socialmedia-icon,
+.button-item:hover .socialmedia-icon  {
+  fill:var(--white);
 }
 
 /*Постоянные клиенты*/

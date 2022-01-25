@@ -450,6 +450,15 @@ li {
   display: flex;
   margin: 0;
   padding: 0;
+  
+}
+.footer-left{
+  margin-right: 0;
+  padding-top: 60px;
+  margin-right:;
+  align-items: left;
+  justify-content: left;
+  
 }
 .logo-footer {
   text-decoration: none;
@@ -491,9 +500,8 @@ li {
   text-decoration: underline;
 }
 .footer-socialmedia {
-  display: flex;
-  padding: 0;
-  margin: 0;
+  padding-top: 72px;
+  margin-bottom: 20px;
 }
 .join {
   text-decoration: none;
@@ -504,8 +512,12 @@ li {
   margin-bottom: 20px;
   text-decoration: none;
 }
-.footer-list {
- 
+.join-sociallinks {
+  display: flex;
+  width: 200px
+}
+.join-sociallinks.li {
+  margin-right: 10px;
 }
 .footersoc-item  {
   width: 44px;

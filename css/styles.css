@@ -349,13 +349,14 @@ li {
 }
 .socialmedia-buttons {
   display: flex;
+  padding: 0;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
   background-color:var(--white);
+  margin-bottom: 30px;
   
 }
-.socialmedia-buttons .button-item {
+.button-item  {
   display: block;
   width: 44px;
   height: 44px;
@@ -363,28 +364,28 @@ li {
   border: none;
   cursor: pointer;
   background-color: var(--white);
+  border-radius: 50%;
+}
+
+.button-item:focus,
+.button-item:hover {
+  background-color: var(--accent-color);
 }
 .socialmedia-icon {
-  width: 44px;
-  height: 44px;
-  display: inline-block;
- 
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+  width: 20px;
+  height: 20px;
+ fill: var(--primary-text-color);
 }
-.iconbkg {
+
+.socialmedia-icon:focus,
+.socialmedia-icon:hover {
   fill: var(--white);
+  background-color: var(--accent-color);
 }
-.letter {
-  fill: var(--light-grey);
-}
-.socialmedia-icon:hover .iconbkg {
-  fill: var(--accent-color);
-}
-.socialmedia-icon:focus .letter {
-  fill: var(--white);
-}
+
+
+
+
 
 /*Постоянные клиенты*/
 .clients-title {

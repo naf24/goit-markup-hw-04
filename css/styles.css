@@ -146,17 +146,20 @@ li {
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
-.button-icon:hover,
-.button-icon:focus {
-  fill: var(--accent-color);
-}
 
-.header-item:hover,
-.header-item:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
+.contact-link:hover {
+  color: var(--accent-color);
+}
+.contact-link:hover .button-icon, 
+.contact-link:focus .button-icon {
+  fill: var(--accent-color);
+}
 
 /* Кнопка */
 

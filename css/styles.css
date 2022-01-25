@@ -436,12 +436,20 @@ li {
 /* Футер */
 
 .footer {
+  
   background-color: var(--background-dark);
   padding-top: 60px;
   padding-bottom: 60px;
+  position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top 2679px;
 }
-.footer-left {
-  margin-right: 70px;
+.footer-body {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 .logo-footer {
   text-decoration: none;

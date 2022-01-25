@@ -149,24 +149,18 @@ li {
   border: none;
   background-color: inherit;
   margin-right: 10px;
-}
-.button-icon {
-  width: 16px;
-  height: 12px;
   fill: var(--primary-text-color);
 }
-.button-icon:hover,
-.button-icon:focus {
+
+.header-button:hover,
+.header-button:focus {
   fill: var(--accent-color);
 }
 .header-connect:hover,
 .header-connect:focus {
   color: var(--accent-color);
 }
-.button-icon.phone {
-width: 10px;
-height: 16px;
-}
+
 /* Кнопка */
 
 .btn {

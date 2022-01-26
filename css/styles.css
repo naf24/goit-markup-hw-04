@@ -377,7 +377,7 @@ li {
 .socialmedia-icon {
   width: 20px;
   height: 20px;
- fill: var(--primary-text-color);
+ fill: #AFB1B8;
 }
 
 .button-item:hover .socialmedia-icon,
@@ -386,6 +386,7 @@ li {
 }
 
 /*Постоянные клиенты*/
+
 .clients-title {
   color: var(--title-text-color);
   margin-bottom: 50px;

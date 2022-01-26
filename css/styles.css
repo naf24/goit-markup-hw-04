@@ -298,7 +298,7 @@ li {
 /* Команда */
 
 .hero-section {
-  background-color: var(--background-color);
+  background-color:#F5F4FA;;
   margin-bottom: var(--base-margin);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -424,14 +424,14 @@ li {
   justify-content: center;
 
   width: 100%;
-  height: 120px;
+  height: 92px;
   fill: #AFB1B8;
-  background-color: var(--backround-middle);
+ 
 
 }
 .clients-icon {
-  width: 106px;
-  height: 60px;
+  width: 170px;
+  height: 92px;
 }
 
 
@@ -439,26 +439,20 @@ li {
 /* Футер */
 
 .footer {
-  
   background-color: var(--background-dark);
   padding-bottom: 60px;
-  position: absolute;
-  width: 1600px;
-  height: 252px;
+  padding-top: 60px;
   left: 0px;
 }
 .footer-body {
   display: flex;
-  margin: 0;
-  padding: 0;
-  
 }
 .footer-left{
   margin-right: 0;
-  padding-top: 60px;
-  margin-right:;
+  margin-right: 70px;;
   align-items: left;
   justify-content: left;
+  
   
 }
 .logo-footer {
@@ -501,7 +495,6 @@ li {
   text-decoration: underline;
 }
 .footer-socialmedia {
-  padding-top: 72px;
   margin-bottom: 20px;
 }
 .join {

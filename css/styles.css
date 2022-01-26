@@ -359,20 +359,21 @@ li {
   margin-bottom: 30px;
   
 }
-.button-item  {
+.socialmedia-buttons .button-item  {
   display: block;
-  width: 44px;
-  height: 44px;
   padding: 0;
   border: none;
   cursor: pointer;
   background-color: var(--white);
   border-radius: 50%;
+  width: 44px;
+  height: 44px;
 }
 
 .button-item:focus,
 .button-item:hover {
   background-color: var(--accent-color);
+  
 }
 .socialmedia-icon {
   width: 20px;
@@ -496,6 +497,7 @@ li {
 }
 .footer-socialmedia {
   margin-bottom: 20px;
+  padding-top: 10px;
 }
 .join {
   text-decoration: none;
@@ -510,9 +512,7 @@ li {
   display: flex;
   width: 200px
 }
-.join-sociallinks.li {
-  margin-right: 10px;
-}
+
 .footersoc-item  {
   width: 44px;
   height: 44px;
@@ -521,6 +521,7 @@ li {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  margin-right: 10px;
   
 }
 
@@ -556,7 +557,7 @@ li {
   
 }
 
-.btn-portfolio {
+.button-item .btn-portfolio {
   min-width: 8px;
   margin: 0;
   padding: 6px 22px 6px 22px;
@@ -681,20 +682,4 @@ li {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-llink {
-  display: inline-block;
-  height: 44px;
-  width: 44px;
-  background-image: ;
-  background-color: var(--white);
-  background-size: px;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: ;
-
-}
-llink:hover{
-  background-color: var(--accent-color);
 }

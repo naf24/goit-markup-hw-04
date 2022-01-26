@@ -492,8 +492,10 @@ li {
   line-height: 1.7;
   margin-bottom: 9px;
 }
-.footer-contact:hover,:focus{
-  text-decoration: underline;
+.footer-contact:hover,
+.footer-contact:focus{
+  text-decoration underline;
+ 
 }
 .footer-socialmedia {
   margin-bottom: 20px;
@@ -553,10 +555,8 @@ li {
 .project-buttons {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
-  
+  margin-bottom: 50px; 
 }
-
 .button-item .btn-portfolio {
   min-width: 8px;
   margin: 0;
@@ -566,22 +566,22 @@ li {
   color: var(--title-text-color);
   cursor: pointer;
   border: 1px solid transparent;
-
-  font-family: inherit;
+  font-family: ;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-
   text-align: center;
-
   background: #f5f4fa;
   letter-spacing: 0.03em;
   
-  border-radius: 4px;
+  
+}
+.btn-portfolio {
+  
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-  color: var(--white);
+   color: var(--white);
   background-color: var(--accent-color);
 }
 .portfolio-buttons .li {
@@ -589,18 +589,16 @@ li {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  font-family: inherit;
   padding-top: 6px;
   padding-bottom: 6px;
   min-width: 70px;
   margin: 0;
-  border-radius: 4px;
   padding: 10px 32px;
   background-color: var(--background-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  
 }
 .button-item {
+  border-radius: 4px;
   margin-right: 8px;
 }
 .button-item:not(:last-child){

@@ -409,12 +409,15 @@ border-radius: 0px 0px 4px 4px;
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
-  padding-bottom: 0;
+  
   cursor: pointer;
+  fill: #AFB1B8;
+  
 }
 .clients-list:focus,
 .clients-list:hover {
   border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .clients-list-icon:focus,
 .clients-list-icon:hover {
@@ -432,6 +435,7 @@ border-radius: 0px 0px 4px 4px;
   width: 100%;
   height: 92px;
   fill: #AFB1B8;
+  
  
 
 }
@@ -439,7 +443,10 @@ border-radius: 0px 0px 4px 4px;
   width: 170px;
   height: 92px;
 }
-
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--accent-color);
+}
 
 
 /* Футер */

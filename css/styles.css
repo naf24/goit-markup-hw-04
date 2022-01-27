@@ -153,7 +153,8 @@ li {
   fill: var(--accent-color);
 }
 
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 .contact-link:hover .button-icon, 
@@ -373,7 +374,7 @@ border-radius: 0px 0px 4px 4px;
 .button-item:focus,
 .button-item:hover {
   background-color: var(--accent-color);
-  
+  fill: white;
 }
 .socialmedia-icon {
   width: 20px;
@@ -382,7 +383,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .button-item:hover .socialmedia-icon,
-.button-item:hover .socialmedia-icon  {
+.button-item:focus .socialmedia-icon  {
   fill:var(--white);
 }
 

@@ -442,6 +442,7 @@ border-radius: 0px 0px 4px 4px;
 .clients-icon {
   width: 170px;
   height: 92px;
+  margin-bottom: 0;
 }
 .clients-icon:hover,
 .clients-icon:focus {

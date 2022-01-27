@@ -388,6 +388,7 @@ border-radius: 0px 0px 4px 4px;
 .button-item:hover .socialmedia-icon,
 .button-item:focus .socialmedia-icon  {
   fill:var(--white);
+  background-color: var(--accent-color);
 }
 
 /*Постоянные клиенты*/
